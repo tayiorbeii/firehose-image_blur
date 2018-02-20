@@ -34,21 +34,15 @@ class Image
                 if !@data[outer_index - r_index][inner_index - index_to_blur].nil?
                   blurred_image[outer_index - r_index][inner_index - index_to_blur] = 1
                 end
-              
               end
-            
             end
-          
           end
-          
         end
       end
     end
 
     blurred_image
-
   end
-  
 end
 
 pixels = [
